@@ -2,7 +2,7 @@ function getShippingCost(country) {
   let price = 0;
   let message;
 
-  switch (counrty) {
+  switch (country) {
     case 'China':
       price = 100;
       message = `Shipping to ${country} will cost ${price} credits`;
